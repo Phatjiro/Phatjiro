@@ -9,6 +9,8 @@
 
 - 📫 How to reach me **nguyenvanphat911@gmail.com**
 
+<img alt="Coding gif" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZycXB3MzhzZjV2ZHE0M3AzOWUzNWhpd2tmcHBqaWlvaWtxMTh6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif">
+
 <h4 align="left">Now, I'm a fourth-year student and I'm learning Software Technology at Industrial University of Ho Chi Minh City.</h4>
 <p align="left">
 </p>
