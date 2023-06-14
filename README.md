@@ -5,8 +5,6 @@
 
 - 🌱 I’m currently learning **Python, Nodejs, Reacjt, ...**
 
-- 👯 I’m looking to collaborate on **EQuest Group Education**
-
 - 💬 Ask me about **Python, Nodejs, Reacjs, Java, ...**
 
 - 📫 How to reach me **nguyenvanphat911@gmail.com**
