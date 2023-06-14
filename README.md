@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **nguyenvanphat911@gmail.com**
 
-<h4 align="left">Now, I'm a fourth-year student and I'm learning Software Technology at Industrial University of Ho Chi Minh City. My dream is become a Fullstack Web Developer.</h4>
+<h4 align="left">Now, I'm a fourth-year student and I'm learning Software Technology at Industrial University of Ho Chi Minh City.</h4>
 <p align="left">
 </p>
 
