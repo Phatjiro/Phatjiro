@@ -4,9 +4,9 @@
 
 - 🔭 I’m currently working on **Odoo 15**
 
-- 🌱 I’m currently learning **Python, Nodejs, Reacjt, ...**
+- 🌱 I’m currently learning **Python, Nodejs, Reactjs, ...**
 
-- 💬 Ask me about **Python, Nodejs, Reacjs, Java, ...**
+- 💬 Ask me about **Python, Nodejs, Reactjs, Java, ...**
 
 - 📫 How to reach me **nguyenvanphat911@gmail.com**
 
