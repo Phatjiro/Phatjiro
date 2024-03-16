@@ -1,16 +1,16 @@
 <h1 align="center">Hi 👋, I'm Van Phat</h1>
-<h3 align="center">I'm a full stack developer (Odoo now)</h3>
+<h3 align="center">I'm a full stack developer (Unity now)</h3>
 <img alt="Coding gif" width="400" align="right" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZycXB3MzhzZjV2ZHE0M3AzOWUzNWhpd2tmcHBqaWlvaWtxMTh6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif">
 
-- 🔭 I’m currently working on **Odoo 15**
+- 🔭 I’m currently working on **Unity**
 
-- 🌱 I’m currently learning **Python, Nodejs, Reactjs, ...**
+- 🌱 I’m currently learning **C#, C++, Python, Nodejs, Reactjs, ...**
 
-- 💬 Ask me about **Python, Nodejs, Reactjs, Java, ...**
+- 💬 Ask me about **C#, C++, Python, Nodejs, Reactjs, Java, ...**
 
 - 📫 How to reach me **nguyenvanphat911@gmail.com**
 
-<h4 align="left">Now, I'm a fourth-year student and I'm learning Software Technology at Industrial University of Ho Chi Minh City.</h4>
+<h4 align="left">Now, I have graduated, and I hold a degree in Software Technology from the Industrial University of Ho Chi Minh City.</h4>
 <p align="left">
 </p>
 
