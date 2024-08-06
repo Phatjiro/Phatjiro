@@ -8,7 +8,7 @@
 
 - 💬 Ask me about **C#, C++, Java, ...**
 
-- 📫 How to reach me **nguyenvanphat911@gmail.com** or <a href="https://www.youtube.com/c/https://www.youtube.com/channel/ucx9sqery84igzm_tfo0qz4q" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucx9sqery84igzm_tfo0qz4q" height="30" width="40" /></a>
+- 📫 How to reach me **nguyenvanphat911@gmail.com** or <a href="https://www.youtube.com/@phatlaptrinhgame" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucx9sqery84igzm_tfo0qz4q" height="30" width="40" /></a>
 
 <h4 align="left">I have graduated, and I hold a degree in Software Technology from the Industrial University of Ho Chi Minh City.</h4>
 <p align="left">
