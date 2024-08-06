@@ -4,9 +4,9 @@
 
 - 🔭 I’m currently working on **Unity**
 
-- 🌱 I’m currently learning **C#, C++, Python, Nodejs, Reactjs, ...**
+- 🌱 I’m currently learning **C#, C++...**
 
-- 💬 Ask me about **C#, C++, Python, Nodejs, Reactjs, Java, ...**
+- 💬 Ask me about **C#, C++, Java, ...**
 
 - 📫 How to reach me **nguyenvanphat911@gmail.com**
 
