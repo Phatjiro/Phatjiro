@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Van Phat | Full Stack & Game Developer Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Nguyen Van Phat, a Full Stack Web Developer and Unity Game Developer specializing in C#, Python, Next.js, and Babylon.js.">
+    <meta name="keywords" content="Unity, Game Developer, Full Stack, Next.js, Babylon.js, C#, Python, Developer, Portfolio, Nguyen Van Phat, Phatjiro">
+    <meta name="author" content="Nguyen Van Phat">
+    
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Boxicons for additional icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Modular Stylesheet (aggregates sub-styles) -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Particles Background Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span class="logo-text">Phat<span class="highlight">Dev</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#journey" class="nav-link">Timeline</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting-badge">👋 Creating Immersive & Scalable Applications</span>
+                <h1 class="hero-title">Hi, I am <span class="gradient-text">Van Phat</span></h1>
+                <h2 class="hero-subtitle">
+                    A <span id="typewriter" class="highlight">Unity Game Developer</span>
+                </h2>
+                <p class="hero-description">
+                    Full Stack Developer and Unity Game Developer. Graduate in Software Engineering and currently pursuing a Master's in Computer Science. Specialized in building core backend architectures, multiplayer games, and immersive 3D web platforms.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Explore My Projects</span>
+                        <i class="fa-solid fa-arrow-down-long"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            
+            <!-- Dynamic 3D-like floating game component showcase -->
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fa-brands fa-unity visual-icon"></i>
+                            <div class="visual-badge">Full Stack & Game</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding scroll-reveal">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">01. Biography</span>
+                <h2 class="section-title">My Journey</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-img-container">
+                    <div class="about-img-frame">
+                        <div class="avatar-placeholder">
+                            <i class="fa-brands fa-unity"></i>
+                        </div>
+                        <div class="frame-border"></div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Full Stack Developer & Game Programmer</h3>
+                    <p>
+                        With a solid technical foundation in Object-Oriented Programming (OOP), software design patterns, and systems optimization, I work across web and game development. I hold a Bachelor's degree in <strong>Software Engineering</strong> and am currently completing my Master's degree in <strong>Computer Science</strong> at the <strong>Industrial University of Ho Chi Minh City (IUH)</strong>.
+                    </p>
+                    <p>
+                        My professional journey includes building custom ERP structures (Odoo, Python, PostgreSQL), teaching game development (Unity, multiplayer networking, VR/AR), developing 2D/3D mobile games with robust codebases (Photon Fusion, Mirror), and building interactive 3D virtual room platforms on the web using <strong>Babylon.js</strong>, <strong>Node.js</strong>, and <strong>Next.js</strong>.
+                    </p>
+                    
+                    <div class="info-list-grid">
+                        <div class="info-item">
+                            <i class="fa-solid fa-graduation-cap highlight"></i>
+                            <span><strong>Education:</strong> Master of Computer Science</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope highlight"></i>
+                            <span><strong>Email:</strong> nguyenvanphat911@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-brands fa-youtube highlight"></i>
+                            <span><strong>YouTube:</strong> Phát Lập Trình Game</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot highlight"></i>
+                            <span><strong>Location:</strong> Binh Thanh, HCMC, Vietnam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding scroll-reveal">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">02. Technical Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Skill Card 1: Game Engines -->
+                <div class="skill-card glass">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <h3>Game Engines & 3D</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Unity (C#, Addressables, SO)</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="90%" style="width: 0%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Babylon.js (3D Web graphics)</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="75%" style="width: 0%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Multiplayer (Fusion, PUN, Mirror)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="80%" style="width: 0%"></div></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2: Languages -->
+                <div class="skill-card glass">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C# / C++</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="85%" style="width: 0%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python (Odoo ERP)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="80%" style="width: 0%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Next.js / Node.js / TypeScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="75%" style="width: 0%"></div></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3: Databases & Tools -->
+                <div class="skill-card glass">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3>Databases & Infrastructure</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PostgreSQL / MySQL / Redis</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="80%" style="width: 0%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker / Git / CI/CD</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="80%" style="width: 0%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Unity Editor Extensions</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress-bar" data-width="85%" style="width: 0%"></div></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Badges Row -->
+            <div class="badges-row">
+                <span class="tech-badge"><img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" style="filter: brightness(0) invert(1);"> Unity</span>
+                <span class="tech-badge"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"> C#</span>
+                <span class="tech-badge"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"> Python</span>
+                <span class="tech-badge"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase"> Firebase</span>
+                <span class="tech-badge"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react"> Next.js</span>
+                <span class="tech-badge"><img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="postgresql"> PostgreSQL</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding scroll-reveal">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">03. Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="unity">Unity Games</button>
+                <button class="filter-btn" data-filter="web">Web & 3D</button>
+                <button class="filter-btn" data-filter="others">Others</button>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="project-grid">
+                
+                <!-- Project Card 1: Uncover Lies -->
+                <div class="project-card glass" data-category="unity">
+                    <div class="project-media">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #00b8d4 0%, #00cc88 100%);">
+                            <i class="fa-solid fa-people-group card-icon"></i>
+                        </div>
+                        <div class="project-badge">Multiplayer Game</div>
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3>Uncover Lies: Ai là Gián Điệp</h3>
+                        <p class="project-desc">
+                            A social deduction multiplayer game inspired by Undercover. Developed with a real-time online/local matchmaking lobby, session management, in-app purchases, localization, and a highly responsive UI/UX.
+                        </p>
+                        <div class="project-tech">
+                            <span>Unity (C#)</span>
+                            <span>Photon Fusion</span>
+                            <span>Figma</span>
+                            <span>Photoshop</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.haka.undercover&hl=vi" target="_blank" class="btn-project btn-play">
+                                <i class="fa-brands fa-google-play"></i> Play Store
+                            </a>
+                            <a href="https://apps.apple.com/us/app/uncover-lies-k%E1%BA%BB-gi%E1%BA%A3-m%E1%BA%A1o-spy/id6745883418?l=vi" target="_blank" class="btn-project btn-play" style="background: rgba(255,255,255,0.1); color: white; border-color: rgba(255,255,255,0.2);">
+                                <i class="fa-brands fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Sherlock Holmes Hidden Objects -->
+                <div class="project-card glass" data-category="unity">
+                    <div class="project-media">
+                        <!-- Direct Video Showcase Embed -->
+                        <iframe src="https://www.youtube.com/embed/GYeIEJVtVZI" title="Sherlock Holmes Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="project-badge">Puzzle Game</div>
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3>Sherlock Holmes: Hidden Objects</h3>
+                        <p class="project-desc">
+                            A detective hidden object game featuring custom branching dialogue scripts, immersive audio-visual feedback, and a custom Unity Editor level creation tool to place object items efficiently.
+                        </p>
+                        <div class="project-tech">
+                            <span>Unity (C#)</span>
+                            <span>Editor Extensions</span>
+                            <span>Figma</span>
+                            <span>AI Assets</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.kaha.hiddenobjects" target="_blank" class="btn-project btn-play">
+                                <i class="fa-brands fa-google-play"></i> Play Store
+                            </a>
+                            <a href="https://apps.apple.com/us/app/sherlock-holmes-hidden-object/id6748382055?l=vi" target="_blank" class="btn-project btn-play" style="background: rgba(255,255,255,0.1); color: white; border-color: rgba(255,255,255,0.2);">
+                                <i class="fa-brands fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Color Block Jam: Dragon Quest -->
+                <div class="project-card glass" data-category="unity">
+                    <div class="project-media">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);">
+                            <i class="fa-solid fa-cubes card-icon" style="color: #ff4e50;"></i>
+                        </div>
+                        <div class="project-badge">Puzzle Game</div>
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3>Color Block Jam: Dragon Quest</h3>
+                        <p class="project-desc">
+                            A vibrant block puzzle game featuring strategic matching, progressive levels, and smooth visual effects. Built with optimized assets for mobile devices.
+                        </p>
+                        <div class="project-tech">
+                            <span>Unity (C#)</span>
+                            <span>Mobile Optimization</span>
+                            <span>UI/UX Design</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://apps.apple.com/us/app/color-block-jam-dragon-quest/id6745580872?l=vi" target="_blank" class="btn-project btn-play" style="background: rgba(255,255,255,0.1); color: white; border-color: rgba(255,255,255,0.2);">
+                                <i class="fa-brands fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: MyRoom Social Platform -->
+                <div class="project-card glass" data-category="web">
+                    <div class="project-media">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #00b8d4 0%, #00cc88 100%);">
+                            <i class="fa-solid fa-vr-cardboard card-icon"></i>
+                        </div>
+                        <div class="project-badge">3D Web / Babylon.js</div>
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3>MyRoom</h3>
+                        <p class="project-desc">
+                            A virtual social platform enabling users to create, customize, and interact inside immersive 3D virtual rooms. Developed with web graphics in Babylon.js and integrated with backend services.
+                        </p>
+                        <div class="project-tech">
+                            <span>Babylon.js</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>Java</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://myroom.im/" target="_blank" class="btn-project btn-play">
+                                <i class="fa-solid fa-globe"></i> Visit Platform
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4: Odoo HRM & ERP Modules -->
+                <div class="project-card glass" data-category="others">
+                    <div class="project-media">
+                        <div class="project-thumbnail" style="background: linear-gradient(135deg, #fee140 0%, #fa709a 100%);">
+                            <i class="fa-solid fa-gears card-icon"></i>
+                        </div>
+                        <div class="project-badge">ERP Modules</div>
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3>Odoo ERP Custom Workflows</h3>
+                        <p class="project-desc">
+                            Designed and developed Odoo ERP system customizations for Human Resource Management (HRM), Employee Profiles, and internal Ticket Systems. Programmed database tables and REST API interfaces.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Odoo ERP</span>
+                            <span>PostgreSQL</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Journey Section -->
+    <section id="journey" class="journey-section section-padding scroll-reveal">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">04. Milestones</span>
+                <h2 class="section-title">Career Timeline</h2>
+                <div class="underline"></div>
+            </div>
+
+            <!-- Timeline Structure -->
+            <div class="timeline">
+                
+                <!-- Milestone 1: BS Degree -->
+                <div class="timeline-item">
+                    <div class="timeline-content glass">
+                        <div class="timeline-date">2019 - 2023</div>
+                        <h3>Bachelor of Software Engineering</h3>
+                        <h4>Industrial University of Ho Chi Minh City</h4>
+                        <p>
+                            Graduated with a GPA of 2.84/4. Honored with the **Outstanding Graduation Project Award** (2022-2023). Developed analytical, OOP structures, and software architecture fundamentals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 2: EQuest Odoo Developer -->
+                <div class="timeline-item">
+                    <div class="timeline-content glass">
+                        <div class="timeline-date">03/2023 - 03/2025</div>
+                        <h3>Full Stack Developer (Odoo)</h3>
+                        <h4>EQuest Education Group</h4>
+                        <p>
+                            Designed and programmed customized Odoo ERP modules for Human Resource Management (HRM), Ticket Systems, and business workflows. Maintained REST APIs and integrated third-party systems.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 3: VTC Academy Unity Teacher -->
+                <div class="timeline-item">
+                    <div class="timeline-content glass">
+                        <div class="timeline-date">03/2025 - 09/2025</div>
+                        <h3>Unity Game Programming Teacher</h3>
+                        <h4>VTC Academy</h4>
+                        <p>
+                            Designed syllabuses and taught game coding in Unity (2D, 3D, AR/VR Quest 3) and multiplayer networking (Photon PUN 2, Fusion, Mirror). Founded "Phát Lập Trình Game" YouTube channel to educate dev communities.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 4: Master Degree -->
+                <div class="timeline-item">
+                    <div class="timeline-content glass">
+                        <div class="timeline-date">2025 - Present</div>
+                        <h3>Master of Computer Science (M.S.)</h3>
+                        <h4>Industrial University of Ho Chi Minh City</h4>
+                        <p>
+                            Currently pursuing a Master's degree in Computer Science, deepening knowledge in advanced algorithms, artificial intelligence, and scalable system architectures. Current GPA: 2.85/4.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 5: Visiov Studio Unity Developer -->
+                <div class="timeline-item">
+                    <div class="timeline-content glass">
+                        <div class="timeline-date">09/2025 - 04/2026</div>
+                        <h3>Unity Game Developer</h3>
+                        <h4>Visiov Studio</h4>
+                        <p>
+                            Designed scalable architectures for multiplayer mobile games using Photon Fusion/Mirror. Programmed customized Unity Editor tools to automate workflows and optimized loading times/frame rates.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 6: Babylon.js Developer -->
+                <div class="timeline-item">
+                    <div class="timeline-content glass">
+                        <div class="timeline-date">04/2026 - 07/2026</div>
+                        <h3>Babylon.js Developer</h3>
+                        <h4>Blue Dragon Communications</h4>
+                        <p>
+                            Developed the MyRoom social web platform. Engineered interactive 3D rooms on the web browser in Babylon.js and integrated them with frontend user dashboards and Node/Java backend layers.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding scroll-reveal">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">05. Collaboration</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="contact-content-wrapper">
+                <div class="contact-intro text-center">
+                    <h3>Have a project in mind or looking to hire?</h3>
+                    <p>
+                        Feel free to reach out directly on any of the platforms listed below. I am open to full-time developer roles, game programmer challenges, and freelance collaborations. Let's create something impact-driven!
+                    </p>
+                </div>
+                
+                <div class="contact-channels-grid">
+                    <a href="mailto:nguyenvanphat911@gmail.com" class="channel-card glass">
+                        <div class="channel-icon mail-color">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="channel-detail">
+                            <span>Email Me Directly</span>
+                            <h4>nguyenvanphat911@gmail.com</h4>
+                        </div>
+                    </a>
+
+                    <a href="tel:0938649707" class="channel-card glass">
+                        <div class="channel-icon phone-color">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="channel-detail">
+                            <span>Call Me Directly</span>
+                            <h4>0938 649 707</h4>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/@phatlaptrinhgame" target="_blank" class="channel-card glass">
+                        <div class="channel-icon youtube-color">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="channel-detail">
+                            <span>YouTube Dev Channel</span>
+                            <h4>Phát Lập Trình Game</h4>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Phatjiro" target="_blank" class="channel-card glass">
+                        <div class="channel-icon github-color">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="channel-detail">
+                            <span>Browse My Repositories</span>
+                            <h4>github.com/Phatjiro</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Phatjiro - Fullstack Developer Dev</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Sources (Modular loading) -->
+    <script defer src="js/particles.js"></script>
+    <script defer src="js/main.js"></script>
+</body>
+</html>

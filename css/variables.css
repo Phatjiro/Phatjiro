@@ -1,0 +1,43 @@
+/* ==========================================================================
+   DESIGN SYSTEM & VARIABLES
+   ========================================================================== */
+:root {
+    /* Color Palette */
+    --bg-dark: #070b13;
+    --bg-card: rgba(13, 20, 38, 0.6);
+    --bg-card-hover: rgba(22, 33, 62, 0.8);
+    --bg-nav: rgba(7, 11, 19, 0.75);
+    
+    --primary: #00b8d4;      /* Deep Cyber Cyan */
+    --secondary: #00cc88;    /* Deep Cyber Mint */
+    --accent: #00b560;       /* Rich Green */
+    
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1; /* Higher contrast slate */
+    --text-muted: #64748b;
+    --white: #ffffff;
+    
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-glow: rgba(0, 184, 212, 0.2);
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    --gradient-glow: linear-gradient(135deg, rgba(0, 184, 212, 0.15) 0%, rgba(0, 204, 136, 0.15) 100%);
+    
+    /* Fonts */
+    --font-primary: 'Outfit', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+    
+    /* Effects */
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-glow: 0 0 15px rgba(0, 184, 212, 0.2);
+    
+    /* Transitions */
+    --transition-fast: all 0.2s ease;
+    --transition-normal: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-slow: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    
+    /* Custom Cursor size */
+    --cursor-size: 40px;
+}
