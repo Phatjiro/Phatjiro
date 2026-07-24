@@ -29,41 +29,31 @@ I am a software engineer focused on building modular Unity game architectures, r
 
 ## 📂 Featured Work
 
-### 1. Uncover Lies: Ai là Gián Điệp
-A multiplayer social deduction mobile game inspired by Undercover, featuring real-time online matchmaking, session management, and responsive localizations.
-* **Stack:** Unity (C#), Photon Fusion, Figma.
-* **Downloads:** [App Store](https://apps.apple.com/us/app/uncover-lies-k%E1%BA%BB-gi%E1%BA%A3-m%E1%BA%A1o-spy/id6745883418?l=vi) &nbsp;|&nbsp; [Google Play](https://play.google.com/store/apps/details?id=com.haka.undercover&hl=vi)
-
-### 2. Sherlock Holmes Hidden Objects
+### 1. Sherlock Holmes Hidden Objects
 A detective puzzle game with interactive branching dialogues, custom feedback mechanics, and a custom Unity Editor level creator tool to automate asset placements.
 * **Stack:** Unity (C#), Unity Editor Extensions, AI Asset Pipelines.
 * **Links:** [App Store](https://apps.apple.com/us/app/sherlock-holmes-hidden-object/id6748382055?l=vi) &nbsp;|&nbsp; [Google Play](https://play.google.com/store/apps/details?id=com.kaha.hiddenobjects) &nbsp;|&nbsp; [YouTube Video Demo](https://www.youtube.com/watch?v=GYeIEJVtVZI)
+
+### 2. Uncover Lies: Ai là Gián Điệp
+A multiplayer social deduction mobile game inspired by Undercover, featuring real-time online matchmaking, session management, and responsive localizations.
+* **Stack:** Unity (C#), Photon Fusion, Figma.
+* **Downloads:** [App Store](https://apps.apple.com/us/app/uncover-lies-k%E1%BA%BB-gi%E1%BA%A3-m%E1%BA%A1o-spy/id6745883418?l=vi) &nbsp;|&nbsp; [Google Play](https://play.google.com/store/apps/details?id=com.haka.undercover&hl=vi)
 
 ### 3. Color Block Jam: Dragon Quest
 A strategic block-matching puzzle game optimized for mobile devices with smooth animations and layout transitions.
 * **Stack:** Unity (C#), UI Canvas Optimization.
 * **Downloads:** [App Store](https://apps.apple.com/us/app/color-block-jam-dragon-quest/id6745580872?l=vi)
 
-### 4. Evergreen Garden
-A simulation game where players nurture virtual gardens. Features custom plant growth cycle algorithms and rendering optimizations.
-* **Stack:** Unity (C#), Rendering Optimization.
-* **Links:** [YouTube Video Demo](https://www.youtube.com/watch?v=kV_mHByXnhg&t=50s)
-
-### 5. MyRoom
+### 4. MyRoom
 A 3D browser-based platform enabling users to create and customize virtual spaces and interact inside virtual rooms in real-time.
 * **Stack:** Babylon.js (WebGL), Next.js, Node.js, Java.
 * **Platform:** [Visit Platform](https://myroom.im/)
 
-### 6. Odoo ERP Customizations
+### 5. Odoo ERP Customizations
 Tailored enterprise workflows for Human Resource Management (HRM), ticket pipelines, and employee profiles.
 * **Stack:** Python, Odoo ERP, PostgreSQL.
 
----
-
-## 📈 GitHub Metrics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Phatjiro&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="400"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Phatjiro&layout=compact&theme=tokyonight" alt="Top Languages" width="350"/>
-</div>
+### 6. Evergreen Garden
+A simulation game where players nurture virtual gardens. Features custom plant growth cycle algorithms and rendering optimizations.
+* **Stack:** Unity (C#), Rendering Optimization.
+* **Links:** [YouTube Video Demo](https://www.youtube.com/watch?v=kV_mHByXnhg&t=50s)
